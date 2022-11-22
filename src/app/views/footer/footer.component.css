@@ -1,0 +1,86 @@
+footer{
+    background-color: rgba(74, 4, 139, 0.616);
+}
+.rodape{
+    display:flex;
+    justify-content: space-between;
+  
+}
+.logo-rodape{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.links-footer{
+    color: black;
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom:1%;
+width: 300px;
+}
+.links h2{
+    font-size:16px;
+    
+}
+.links a{
+    color:black;
+    text-decoration:none;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10%;
+  
+    
+}
+.social {
+    color: black;
+    font-size:14px ;
+    margin-bottom:8px;
+    margin-right: 2%;
+}
+.social form{
+    display: flex;
+    margin-bottom:8px;
+} 
+.social input[type="email"]{
+    height:37px;
+    width:195px;
+}
+.social input[type="email"] ::placeholder{
+    color:b8b3b3;
+    font-weight: bold;
+}
+button{
+    width:150px;
+    height:42px ;
+color: black;
+background-color: rgb(247, 18, 18);
+border:none;
+font-size:18px;
+}
+.siga-nos{
+    display: flex;
+    justify-content: space-between;
+    margin-top:8px;
+}
+.siga-nos a{
+    margin:2%;
+}
+@media screen and (max-width: 1200px) {
+    .social h2{
+        margin-bottom: 5px;
+        font-size:25px;
+        }
+        .logo-rodape{
+            display: none;
+        }
+}
+@media screen and (max-width: 768px){
+    .links-footer{
+        display: none;
+    }
+    .rodape{
+        justify-content: space-around;
+    }
+}

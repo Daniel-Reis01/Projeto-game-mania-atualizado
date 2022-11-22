@@ -1,0 +1,8 @@
+<section class="negoc">
+    <img src="\assets\img\galt.jpg" height="2530px" >
+<div *ngFor="let noticia of listaNoticias" class="produtos">
+    <img [src]=noticia.imagem alt="profissional">
+    <h2>{{ noticia.titulo }}</h2>
+    <p>{{ noticia.descricao }}</p>
+</div>
+</section>

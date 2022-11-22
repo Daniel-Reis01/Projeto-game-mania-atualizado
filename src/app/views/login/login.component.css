@@ -1,0 +1,42 @@
+ .campo-label{
+    background-color: rgba(65, 32, 212, 0.445);
+    width: 350px;
+    height: 100px;
+    border-radius:3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 37%;
+    margin-top:1%;
+   
+}
+.campo-label label{
+    font-size:1.5rem ;
+    font-weight: 700;
+    color: black;
+    padding: 5px;
+}
+.campo-label input{ 
+    margin-bottom: 10px;
+    height: 200px;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    transition: all 300ms ease;
+}
+#botao-enviar{
+    background-color: rgb(233, 10, 10);
+    color: black;
+text-transform: uppercase;
+padding:15px;
+border-radius:5px;
+text-decoration: none;
+margin-left:46%;
+box-shadow:0px 0px 20px rgb(0,0,0),0px 0px 30px rgb(0,0,0);
+margin-top: 1%;
+margin-bottom: 1%;
+}
